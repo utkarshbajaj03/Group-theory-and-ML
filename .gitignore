@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Uncompressed data (the .jsonl.gz files are tracked; run `gunzip -k data/*.jsonl.gz` to unpack)
+data/*.jsonl
+*.json.tmp
+
+# Sage
+*.sage.py
